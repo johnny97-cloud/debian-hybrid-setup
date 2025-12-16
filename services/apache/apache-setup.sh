@@ -5,7 +5,7 @@ set -euo pipefail
 # Installs Apache, enables basic security, sets up example virtual host
 # Optional: PHP 8.4 + PHP-FPM with mpm_event for performance
 
-echo "=== Modern Apache2 Setup for Debian 13 ==="
+echo "=== Modern Apache2 Setup for Debian 12/13 ==="
 
 # Update system first (recommended)
 apt update && apt upgrade -y
@@ -23,10 +23,10 @@ a2enmod mpm_event || true
 # Ask about PHP
 read -p "Install PHP 8.4 support with PHP-FPM? (y/N): " install_php
 if [[ "$install_php" =~ ^[Yy]$ ]]; then
-    apt install -y php8.4 php8.4-fpm libapache2-mod-fcgid
+    apt install -y php8.2 php8.2-fpm libapache2-mod-fcgid 
     a2enmod proxy_fcgi setenvif
-    a2enconf php8.4-fpm
-    echo "PHP 8.4 + FPM installed and configured with Apache."
+    a2enconf php8.2-fpm
+    echo "PHP 8.2 + FPM installed and configured with Apache."
 fi
 
 # Hide Apache version & OS info (security best practice)
